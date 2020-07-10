@@ -1,8 +1,0 @@
-ul li a{
-    color:white;
-    font-weight: bold;
-}
-
-ul li a:hover, ul li a:focus{
-    color:black;
-}
