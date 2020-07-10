@@ -1,0 +1,213 @@
+{
+    "payload": [
+        {
+            "annotationSpecId": "4812687739101118464",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.08131335,
+                            "y": 0.5838722
+                        },
+                        {
+                            "x": 0.75013304,
+                            "y": 0.9637501
+                        }
+                    ]
+                },
+                "score": 0.9999157
+            },
+            "displayName": "table"
+        },
+        {
+            "annotationSpecId": "7930304581148344320",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.23614743,
+                            "y": 0.64156276
+                        },
+                        {
+                            "x": 0.3368647,
+                            "y": 0.9610705
+                        }
+                    ]
+                },
+                "score": 0.99983037
+            },
+            "displayName": "column"
+        },
+        {
+            "annotationSpecId": "1264695657663299584",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.10297922,
+                            "y": 0.6420183
+                        },
+                        {
+                            "x": 0.7321277,
+                            "y": 0.6966628
+                        }
+                    ]
+                },
+                "score": 0.9998222
+            },
+            "displayName": "row"
+        },
+        {
+            "annotationSpecId": "7930304581148344320",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.33286548,
+                            "y": 0.634039
+                        },
+                        {
+                            "x": 0.44071144,
+                            "y": 0.95899695
+                        }
+                    ]
+                },
+                "score": 0.9996911
+            },
+            "displayName": "column"
+        },
+        {
+            "annotationSpecId": "7930304581148344320",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.107279375,
+                            "y": 0.6382201
+                        },
+                        {
+                            "x": 0.23464361,
+                            "y": 0.95975417
+                        }
+                    ]
+                },
+                "score": 0.99960965
+            },
+            "displayName": "column"
+        },
+        {
+            "annotationSpecId": "1264695657663299584",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.09219977,
+                            "y": 0.74449754
+                        },
+                        {
+                            "x": 0.72975963,
+                            "y": 0.8036777
+                        }
+                    ]
+                },
+                "score": 0.99950457
+            },
+            "displayName": "row"
+        },
+        {
+            "annotationSpecId": "1264695657663299584",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.0965579,
+                            "y": 0.69140047
+                        },
+                        {
+                            "x": 0.7458533,
+                            "y": 0.7459031
+                        }
+                    ]
+                },
+                "score": 0.9994143
+            },
+            "displayName": "row"
+        },
+        {
+            "annotationSpecId": "1264695657663299584",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.11016931,
+                            "y": 0.8723457
+                        },
+                        {
+                            "x": 0.7360015,
+                            "y": 0.9444709
+                        }
+                    ]
+                },
+                "score": 0.9993994
+            },
+            "displayName": "row"
+        },
+        {
+            "annotationSpecId": "1264695657663299584",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.09965847,
+                            "y": 0.80687857
+                        },
+                        {
+                            "x": 0.73662144,
+                            "y": 0.8690068
+                        }
+                    ]
+                },
+                "score": 0.99933237
+            },
+            "displayName": "row"
+        },
+        {
+            "annotationSpecId": "7930304581148344320",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.44105506,
+                            "y": 0.63090914
+                        },
+                        {
+                            "x": 0.7082432,
+                            "y": 0.9503824
+                        }
+                    ]
+                },
+                "score": 0.99924254
+            },
+            "displayName": "column"
+        },
+        {
+            "annotationSpecId": "1264695657663299584",
+            "imageObjectDetection": {
+                "boundingBox": {
+                    "normalizedVertices": [
+                        {
+                            "x": 0.111808084,
+                            "y": 0.59227633
+                        },
+                        {
+                            "x": 0.7616031,
+                            "y": 0.6432953
+                        }
+                    ]
+                },
+                "score": 0.99358314
+            },
+            "displayName": "row"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "agent-minutes-lufthansa-cargo",
+  "private_key_id": "685d47a1897c14b1ae363c43a7890ff00bfa61cd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuWwo4v0KWhFPQ\nVSfpyZRNl6bAarB7Zi5WRJhf6iv2CmsafE6pKlFEUouWR6tZ1WZUhbwyoBvO4Xsh\nFUD8X4FqbBGyZs6ztec7QJSmdNDiUD7i2o6mdt7I2+IZDx8n1KCYXPSzskelkf5P\niJ/ndi0nKe9si0ZVdKOS1KwFFekuDyQlXO2kX9WplZS5qKzlASGmB0EWnj+EHsTS\nXdAOxns4Op/sLXP8MoF41px+GkeObqQNOR5xLr8EFWwjWximEjG2wB/EjGZ8cJz5\nx1zKMvZpG5ZF18q+gNCoxfecXlN3dzDI84dw4bd39i/nPGPSDUTalpZfyqCppvls\nedkB5AkrAgMBAAECggEAUbZE8hdgo53ckdR24jAgmsSp15+omgxnRvLa3oimlaaI\nT19Wlh1I/NYaqRFpkq5aSN5sNuWmYqx1wiltzVkNE80V9iAMW1iyx6gagnBYvNeS\nwUpgdE9dVZEHQ2s81LPnl8BoxhaVUVk8cBW9qwJNYv9aP+p9yeriBhw5iiCcqYKT\nnF+5AzvoeeJX78x3Oa2QYpJbg6XjX4w5yMIYolJAufLtdO+V6S0muaIQi9OCzotQ\nZwo9mbm0jK5N1FD8BNKbw9aYBwBtR69aCYWRq7qmeebA4Oxe1KfGX0+sFhl4CAZq\nb/6cg5WalzPZKroyVWGzRaqiefqTHR5tzoDScwcRIQKBgQDuVmEI/PM1pBTnnvFy\nWUUUZrzml4u1IZhRPfP3HP/HJkrizt3r4nQXVcBUcROUuWAqbzTDnQNNDCjKA+Oj\nj1IS3skPIRZNZUphzU/jlftoRn8uljNPCvd6jqax+Ejc2ktJhVqrlTRKo3Nf0jRO\nofpTK2fSjM/dqSj2u0fOtHAsKQKBgQC7RtRfuFYsUTouOnf1MqCURcCPKBf/8iPS\nNOmYGE9FdqRyFZV0dQC2MgRGxKlbv4SbXvMHh4s6cA6viXsFnmNuSeruL2bK7Jo5\nCFzoiBSp0cBn0njktplDo66WoBY2X05BmE4Of+zaS3bB5CkhYIQ6OG1K6X3pXKn+\npniyNAj1MwKBgQC/ustKwLoiL8IFZk6Tj47Lz64szkK8Tq9Kw8zrwO9eVMavWH0c\nUkrTrs8O3vxCizH6UQWgS0IpjBuQD7rji9sZhRE3U4Wuc0p4DQM0cSYTB4suffP+\npTLa68DbsIFk8VLZbSa4m0m6tWyN6/raOuG2YFegAFkD1x42BgjJF0yZqQKBgQCk\nOYJ2xfFbP4ejjkYvUMwb+ebYIrKZET90UE4fwAGTymx+VosO6qNLIiU54a8Z86JX\nlTXM/oGLJ0TZjdfBn5lV16AaaprbjAvZw4mlp99m47az1I+LEMzp0ZmCILQZzg2T\n2/lnIasT6mUjte6ThE2vuFeu/34Yq9eupVDmBFdunQKBgD3ohD9Ka/Rvo6LJGDHk\n18y4RLtmvMFDjkZz5aRGUokFr6aiGqt1oH8DY1DERHCJ1kpDbx1H5hm0Md+P/mz4\nnP1SGYr7sGRvsENwFld/X5rHqsO273ixSH9ORl/OnGW7mVcd3muUaISWSbSWeMEF\n7grFJMjRPYSvAMkLgYFXCseT\n-----END PRIVATE KEY-----\n",
+  "client_email": "agent-minutes-lufthansa-cargo@agent-minutes-lufthansa-cargo.iam.gserviceaccount.com",
+  "client_id": "101052302096166700130",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/agent-minutes-lufthansa-cargo%40agent-minutes-lufthansa-cargo.iam.gserviceaccount.com"
+}
