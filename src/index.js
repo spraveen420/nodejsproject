@@ -17,6 +17,12 @@ app.use(cors());
 const url = ' https://automl.googleapis.com/v1beta1/projects/167373267132/locations/us-central1/models/IOD7727574428195749888:predict';
 const token = 'ya29.c.Ko8BzAcgn1vYJYY6JYbKDCwbxVMOCEKcpl5CywttJsMiuPhh7SuEP9WZGjwYxksGgopBEsaLBNDF5e4ZdtHouoYBTlaawlz8F3vmUYqeJSqbj8oT6nmHG7lwCK3ThCM6DgO4NgeMLNY83HCZ0JvyXp9Po3FpJOopOJhQ5VTSSRMNUDZm1qBEJY5Nhv2fqqf-Yo0';
 
+
+app.post('/sample', (req, res) => {
+        console.log(req.body);
+        res.send(req.body);
+});
+
 app.get('/reactHtml', (req, res) => {
     let htmlSampl = fs.readFileSync(path.join(__dirname,'./outputHtml/sample.html'));
     let pos = 0;let sIndex = 0; let equalIndex = 0; let fdqIndex = 0; let sdqIndex = 0; let tagStyle = '';
