@@ -15,6 +15,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "find-process": "^1.4.3",
+    "html-to-jsx": "0.0.4",
     "multer": "^1.4.1",
     "node-command-line": "^1.0.2",
     "zip-dir": "^1.0.2"

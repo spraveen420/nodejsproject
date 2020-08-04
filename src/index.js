@@ -4,12 +4,13 @@ var path = require('path');                    // path for getting absolute path
 var bodyParser = require('body-parser');       // to parse objects in req.body
 var cors = require('cors');                    // to connect to another platform
 var routes = require('./routes/appRoutes');    // routes for functions
-const PORT = 8080;                             // port number
+const PORT = 8081;                             // port number
 const fs = require('fs');
 const axios = require('axios');
 var cmd = require('node-command-line');
 var zipdir = require('zip-dir');
 const find = require('find-process');
+const converter = require('html-to-jsx/index');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
@@ -21,6 +22,18 @@ const token = 'ya29.c.Ko8BzAcgn1vYJYY6JYbKDCwbxVMOCEKcpl5CywttJsMiuPhh7SuEP9WZGj
 app.post('/sample', (req, res) => {
         console.log(req.body);
         res.send(req.body);
+});
+
+app.get('/copyImage', (req, res) => {
+    const data = fs.readFileSync(path.join(__dirname,'./assets/default_image.jpg'));
+    fs.writeFileSync(path.join(__dirname,'./images/default_image.jpg') , data , 'base64');
+    res.send('done');
+})
+
+app.get('/converter', (req, res) => {
+    const sample = converter('<div class="container" id="div0" style="position :relative; background-color: yellow;">\n  <div id="div1" style="position :relative; margin :2%; height :554.5px;">\n    <form>\n      <button (click)="sendData($event)" formaction="http://localhost:8081/sample" formmethod="post" formtarget="_blank" class="btn btn-primary" id="button1" style="top :347.21px; left :249.07px;  position :absolute; text-align: center;" type="button">Send</button>\n      <input class="form-control" id="textbox1" name="textbox1" style="top :28.81px; left :249.07px;  position :absolute; width :20%; text-align: center;" type="text">\n      <select class="form-control" id="dropdown1" name="dropdown1" style="top :124.36px; left :249.07px;  position :absolute; width :20%; text-align: center;">\n        <option value="select">select</option>\n        <option value=""></option>\n      </select>\n      <label class=" " id="label1" style="top :124.36px; left :75.93px;  position :absolute; width :79.98px; text-align: center;">type</label>\n      <label class=" " id="label2" style="top :290.2px; left :75.93px;  position :absolute; width :104.89px; text-align: center;">choice</label>\n      <p class=" " id="checkbox1" style="top :290.2px; left :249.07px;  position :absolute; text-align: center;">\n        <input id="checkbox1" name="checkbox1" type="checkbox" value="check I">check I\n      </p>\n      <label class=" " id="label3" style="top :223.71px; left :75.93px;  position :absolute; width :111.98px; text-align: center;">Strange</label>\n      <p class=" " id="radio1" style="top :223.71px; left :249.07px;  position :absolute; text-align: center;">\n        <input id="radio1" name="radio" type="radio" value="O Yes">O Yes\n      </p>\n      <p class=" " id="radio2" style="top :223.71px; left :357.84px;  position :absolute; text-align: center;">\n        <input id="radio2" name="radio" type="radio" value="No">No\n      </p>\n      <img alt="1" class="img-fluid" height="153.73" id="image1" onerror="this.onerror=null; this.src=\'../../../../assets/default_image.jpg\'" src="../../assets/default_image.jpg" style="top :28.81px; left :564.62px;  position :absolute; text-align: center;" width="196.16">\n      <label class=" " id="label4" style="top :28.81px; left :75.93px;  position :absolute; width :105.67px;text-align: center;">Name</label>\n      <p class=" " id="checkbox2" style="top :290.2px; left :427.4px;  position :absolute;">\n        <input id="checkbox2" name="checkbox2" type="checkbox" value="undeck">undeck\n      </p>\n      <label class=" " id="label5" style="top :190.56px; left :564.62px;  position :absolute; width :216.17px; text-align: center;">Seventy pe.in&gt;</label>\n    </form>\n  </div>\n</div>');
+    console.log(typeof sample);
+    res.send(sample);
 });
 
 app.get('/reactHtml', (req, res) => {
