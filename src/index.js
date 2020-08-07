@@ -20,8 +20,14 @@ const token = 'ya29.c.Ko8BzAcgn1vYJYY6JYbKDCwbxVMOCEKcpl5CywttJsMiuPhh7SuEP9WZGj
 
 
 app.post('/sample', (req, res) => {
+    if(Object.keys(req.body).length !== 0){
         console.log(req.body);
         res.send(req.body);
+    } else {
+        console.log({message: 'GET request is success'});
+        res.send({message: 'GET request is success'});
+    }
+
 });
 
 app.get('/copyImage', (req, res) => {
