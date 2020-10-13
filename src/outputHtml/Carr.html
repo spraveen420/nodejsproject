@@ -1,111 +1,110 @@
-<html>
-  <body>
-    <div class="container-fluid" id="code" style="position: relative;">
-      <form>
-        <div class="row">
-          <input
-            class="form-control"
-            id="textbox1"
-            name="textbox1"
-            style="
-              top: 195.21px;
-              left: 297.61px;
-              position: absolute;
-              width: 20%;
-            "
-            type="text"
-          />
-        </div>
-        <div class="row">
-          <button
-            class="btn btn-primary"
-            id="button1"
-            style="top: 367.03px; left: 189.82px; position: absolute;"
-            type="button"
-            (click)="sendData($event)"
-          >
-            Button
-          </button>
-        </div>
-        <div class="row">
-          <input
-            class="form-control"
-            id="textbox2"
-            name="Label"
-            style="
-              top: 287.01px;
-              left: 297.61px;
-              position: absolute;
-              width: 20%;
-            "
-            type="text"
-          /><label
-            class=""
-            id="label2"
-            style="
-              top: 287.01px;
-              left: 23.27px;
-              position: absolute;
-              width: 203.76px;
-            "
-            >Label</label
-          >
-        </div>
-        <div class="row">
-          <input
-            class="form-control"
-            id="textbox4"
-            name="textbox4"
-            style="top: 25.4px; left: 297.61px; position: absolute; width: 20%;"
-            type="text"
-          />
-        </div>
-        <div class="row">
-          <input
-            class="form-control"
-            id="textbox3"
-            name="textbox3"
-            style="
-              top: 117.39px;
-              left: 297.61px;
-              position: absolute;
-              width: 20%;
-            "
-            type="text"
-          />
-        </div>
-        <div class="row">
-          <label
-            class=""
-            id="label1"
-            style="
-              top: 214.82px;
-              left: 23.27px;
-              position: absolute;
-              width: 186.2px;
-            "
-            >Label</label
-          >
-        </div>
-        <div class="row">
-          <p
-            class=""
-            id="radio1"
-            style="top: 48.14px; left: 23.27px; position: absolute;"
-          >
-            <input id="radio1" type="radio" name="radio" />Radio
-          </p>
-        </div>
-        <div class="row">
-          <p
-            class=""
-            id="checkbox1"
-            style="top: 133.55px; left: 23.27px; position: absolute;"
-          >
-            <input id="checkbox1" type="checkbox" name="checkbox" />Checkbox
-          </p>
-        </div>
-      </form>
+<div class="container-fluid" id="code" style="position: relative">
+  <form>
+    <div class="row">
+      <div class="col">
+        <p
+          class=""
+          id="radio1"
+          style="top: 48.14px; left: 23.27px; position: absolute"
+        >
+          <input id="radio1" name="radio" type="radio" value="radio" />Radio
+        </p>
+      </div>
+      <div class="col">
+        <input
+          class="form-control"
+          id="textbox4"
+          name="textbox4"
+          style="top: 25.4px; left: 297.61px; position: absolute; width: 20%"
+          type="text"
+        />
+      </div>
     </div>
-  </body>
-</html>
+    <div class="row">
+      <div class="col">
+        <p
+          class=""
+          id="checkbox1"
+          style="top: 133.55px; left: 23.27px; position: absolute"
+        >
+          <input
+            id="checkbox1"
+            name="checkbox"
+            type="checkbox"
+            value="checkbox"
+          />Checkbox
+        </p>
+      </div>
+      <div class="col">
+        <input
+          class="form-control"
+          id="textbox3"
+          name="textbox3"
+          style="top: 117.39px; left: 297.61px; position: absolute; width: 20%"
+          type="text"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <label
+          class=""
+          id="label1"
+          style="
+            top: 214.82px;
+            left: 23.27px;
+            position: absolute;
+            width: 186.2px;
+          "
+          >Label</label
+        >
+      </div>
+      <div class="col">
+        <input
+          class="form-control"
+          id="textbox1"
+          name="Label"
+          style="top: 195.21px; left: 297.61px; position: absolute; width: 20%"
+          type="text"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <label
+          class=""
+          id="label2"
+          style="
+            top: 287.01px;
+            left: 23.27px;
+            position: absolute;
+            width: 203.76px;
+          "
+          >Label</label
+        >
+      </div>
+      <div class="col">
+        <input
+          class="form-control"
+          id="textbox2"
+          name="Label"
+          style="top: 287.01px; left: 297.61px; position: absolute; width: 20%"
+          type="text"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button
+          (click)="sendData($event)"
+          class="btn btn-primary"
+          id="button1"
+          style="top: 367.03px; left: 189.82px; position: absolute"
+          type="button"
+        >
+          Button
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
